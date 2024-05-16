@@ -67,6 +67,7 @@ def save_to_module_dict():
         ask_questions_pv_modul[key] = convert_comma_to_dot(value)
     save_dict_to_csv(ask_questions_pv_modul, 'module_data.csv')
 
+
 def save_to_inverter_dict():
     global ask_questions_wechselrichter
     for key, label in inverter_labels.items():
